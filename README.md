@@ -10,7 +10,7 @@ Built according to: [mozilla docs](https://developer.mozilla.org/en-US/docs/Web/
 
 ## WARNING
 
-Sniffing the user agent is not very reliable DO NOT use for anything important.
+Sniffing the user agent is not very reliable DO NOT use for anything important, and when used it should be a last resort.
 
 ### Thanks
 

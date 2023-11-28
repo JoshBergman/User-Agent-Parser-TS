@@ -10,6 +10,7 @@ const is_relevant_keyword = (keyword: string): boolean => {
     case "safari":
     case "opr":
     case "opera":
+    case "edg":
       return true;
     default:
       return false;
@@ -29,7 +30,7 @@ export const gatherKeywords = (user_agent_string: string) => {
     if (isLetter(currentLetter)) {
       currentWord += user_agent_string[i];
       if (is_relevant_keyword(currentWord)) {
-        keywords.push(currentWord);
+        keywords.push(currentWord.toLowerCase());
         currentWord = "";
       }
     } else {
