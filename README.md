@@ -2,6 +2,10 @@
 
 By: Joshua Bergman
 
+## Important Note
+
+User agent strings are outdated and it seems like they are going to be phased out soon(ish). I personally use this as a backup to user agent hints for identifying browsers and devices for analytics.
+
 ## Intended Use
 
 The intended use of this program is to get the browser version and device type from a user agent string.
